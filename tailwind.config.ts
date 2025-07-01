@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'nunito': ['Nunito', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,16 +56,43 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Colores personalizados para el portafolio
+				'pastel-pink': {
+					50: '#fef7f7',
+					100: '#fdeaea',
+					200: '#fbd4d4',
+					300: '#f7b2b2',
+					400: '#f18a8a',
+					500: '#e75a5a',
+					DEFAULT: '#fdeaea',
+				},
+				'pastel-purple': {
+					50: '#faf7ff',
+					100: '#f3ecff',
+					200: '#e9dcff',
+					300: '#d8c0ff',
+					400: '#c29aff',
+					500: '#a970ff',
+					DEFAULT: '#f3ecff',
+				},
+				'pastel-green': {
+					50: '#f0fdf9',
+					100: '#dcfce7',
+					200: '#bbf7d0',
+					300: '#86efac',
+					400: '#4ade80',
+					500: '#22c55e',
+					DEFAULT: '#dcfce7',
+				},
+				'pastel-beige': {
+					50: '#fefdfb',
+					100: '#fdf8f3',
+					200: '#f9f0e7',
+					300: '#f3e4d3',
+					400: '#ebd2b5',
+					500: '#e1bc91',
+					DEFAULT: '#f9f0e7',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +115,29 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'glow': {
+					'0%, 100%': {
+						opacity: '1'
+					},
+					'50%': {
+						opacity: '0.5'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'glow': 'glow 2s ease-in-out infinite',
 			}
 		}
 	},
