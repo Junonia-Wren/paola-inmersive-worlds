@@ -4,9 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const ProjectsSection = () => {
   const estadiaProjects = [
     {
-      title: "🕹️ Estadías en Model Pro",
-      description: "Desarrollo de entornos virtuales inmersivos para videojuegos, creando espacios interactivos y atmosféricos que mejoran la experiencia del usuario.",
-      tech: ["Unreal Engine", "3DS Max", "Adobe Creative Suite"],
+      title: "Estadías en Model Pro MX",
+      description: "Desarrollo de entorno de Realidad Virtual, optimizando los recursos para evitar la sobre carga en lentes MetaQuest",
+      tech: ["SimLab VR Studio", "Adobe Ilustraitor", "Adobe After Effects"],
       color: "from-pastel-purple to-pastel-green",
       embedCode: "// Aquí iría el iframe de modelo 3D interactivo"
     }
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
   const personalProjects = [
     {
       title: "📱 App de RV y RA",
-      description: "Diseño y desarrollo de aplicación móvil con funcionalidades de Realidad Virtual y Realidad Aumentada, enfocada en experiencias educativas inmersivas.",
+      description: "Diseño  de aplicación móvil con funcionalidades de Realidad Virtual y Realidad Aumentada, enfocada en experiencias educativas inmersivas.",
       tech: ["Unity", "ARCore", "Vuforia", "C#"],
       color: "from-pastel-green to-pastel-beige",
       embedCode: "// Aquí iría la demostración interactiva de AR/VR"
