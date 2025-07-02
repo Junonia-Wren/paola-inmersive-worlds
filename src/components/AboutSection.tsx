@@ -24,9 +24,8 @@ const AboutSection = () => {
             <div className="cute-card p-8">
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
                 Diseñadora entusiasta de experiencias inmersivas con habilidades en modelado 3D, 
-                entornos virtuales y VR/AR. Me encanta crear mundos bonitos que conecten 
-                tecnología con emoción, transformando ideas abstractas en experiencias 
-                tangibles que inspiran y emocionan.
+                entornos virtuales y VR/AR. Me caracterizo por mi iniciativa, creatividad y capacidad para aprender de forma autodidacta. Busco aportar
+                soluciones innovadoras en proyectos tecnológicos o de entretenimiento digital.
               </p>
               
               <div className="space-y-4">

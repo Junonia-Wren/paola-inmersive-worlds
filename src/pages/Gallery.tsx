@@ -7,7 +7,7 @@ const Gallery = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <Gallery3DSection />
+      <Gallery />
       <Footer />
     </div>
   );
