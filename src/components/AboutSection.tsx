@@ -51,7 +51,7 @@ const AboutSection = () => {
                     <span className="text-6xl">👩‍💻</span>
                   </div>
                 </div>
-                <div className="absolute -top-4 -right-4 text-3xl animate-float">🚀</div>
+                <div className="absolute -top-4 -right-4 text-3xl animate-float">🌼</div>
                 <div className="absolute -bottom-4 -left-4 text-3xl animate-float" style={{animationDelay: '1s'}}>💫</div>
               </div>
               
