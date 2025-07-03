@@ -1,12 +1,12 @@
 
 const AboutSection = () => {
   const qualities = [
-    { text: 'Proactiva' },
-    { text: 'Creativa' },
-    { text: 'Autodidacta' },
-    { text: 'Buena comunicación' },
-    { text: 'Responsable' },
-    { text: 'Resolutiva' },
+    { emoji: '🌟', text: 'Proactiva' },
+    { emoji: '🎨', text: 'Creativa' },
+    { emoji: '📚', text: 'Autodidacta' },
+    { emoji: '💬', text: 'Buena comunicación' },
+    { emoji: '✅', text: 'Responsable' },
+    { emoji: '🧩', text: 'Resolutiva' },
   ];
 
   return (

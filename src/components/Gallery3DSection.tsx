@@ -5,17 +5,17 @@ const Gallery3DSection = () => {
   const models3D = [
     {
       title: "Personaje Fantasy",
-      description: "Modelado completo de personaje para videojuego 3D",
+      description: "Modelado completo de personaje para videojuego de fantasía",
       category: "Personajes"
     },
     {
-      title: "Personaje Videojuego",
-      description: "Diseño y Modelado de personaje de Historia de Videojuego",
+      title: "Entorno Urbano",
+      description: "Diseño de ciudad futurista para experiencia VR",
       category: "Entornos"
     },
     {
-      title: "Assets",
-      description: "Objetos 3D utilizado para escenarios",
+      title: "Props Interactivos",
+      description: "Objetos 3D optimizados para gameplay",
       category: "Objetos"
     }
   ];
@@ -36,12 +36,12 @@ const Gallery3DSection = () => {
   const illustrations = [
     {
       title: "Concept Art",
-      description: "Ilustraciones conceptuales para juagdores de Videojuego 3D",
+      description: "Ilustraciones conceptuales para proyectos de juegos",
       category: "Conceptos"
     },
     {
       title: "Interface Design",
-      description: "Diseño de interfaces para aplicacion VR",
+      description: "Diseño de interfaces para aplicaciones VR/AR",
       category: "UI/UX"
     }
   ];
